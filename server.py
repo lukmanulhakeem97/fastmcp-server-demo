@@ -1,12 +1,15 @@
 from fastmcp import FastMCP
+import time
 
 # 1. Create the server
-mcp = FastMCP(name="Demo Cloud MCP Server")
+#mcp = FastMCP(name="Demo Cloud MCP Server")
+mcp = FastMCP(name="DemoCloudMCP")
 
 # 2. Add a tool
 @mcp.tool
 def add(a: int, b: int) -> int:
     """Adds two integer numbers together."""
+    time.sleep(10)  
     return a + b
 
 # This function is now an MCP tool named "get_weather"
