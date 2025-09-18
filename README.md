@@ -8,9 +8,11 @@ Pre-requisites are `python<=3.13` and `uv` package manger, instructions to set u
    
    Either by download as zip option or by `git clone https://github.com/lukmanulhakeem97/fastmcp-server-demo.git` command in CLI tool.
 2. **Create an python environment**
-3. **Install Dependencies**
+      fnwnfiu wfuirgr
+4. **Install Dependencies**
 
    
+
 
 
 
