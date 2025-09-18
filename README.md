@@ -7,11 +7,13 @@ Pre-requisites are `python<=3.13` and `uv` package manger, instructions to set u
 1. **Clone this repository**
    
    Either by download as zip option or by `git clone https://github.com/lukmanulhakeem97/fastmcp-server-demo.git` command in CLI tool.
-2. **Create an python environment**
-      fnwnfiu wfuirgr
-4. **Install Dependencies**
+2. **Create an python environment and install dependencies**
+
+   create environment: `uv venv [name]`.
+   install dependency given in `pyproject.toml` file: `uv sync`.
 
    
+
 
 
 
